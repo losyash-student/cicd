@@ -15,5 +15,6 @@ jobs:
       with:
         go-version: '1.21'
 
+    - name: test hello
       run: echo "Hello world"
 
