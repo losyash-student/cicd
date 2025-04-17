@@ -13,3 +13,11 @@ func TestSumm(t *testing.T) {
 	}
 
 }
+
+func TestMinus(t *testing.T) {
+	ans := minus(2, -2)
+	if ans != 0 {
+		t.Errorf("minus(2, -2) = %d; want 0-4", ans)
+	}
+
+}
