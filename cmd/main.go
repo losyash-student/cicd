@@ -1,16 +1,11 @@
 package main
 
-import "fmt"
-
-func minus(a, b int) int {
-	return a - b
-}
-
-func summ(a, b int) int {
-	return a + b
-}
+import (
+	"cicd/internal/calc"
+	"fmt"
+)
 
 func main() {
-	fmt.Println(summ(1, 2))
-	fmt.Println(minus(1, 2))
+	fmt.Println(calc.Summ(1, 2))
+	fmt.Println(calc.Minus(1, 2))
 }

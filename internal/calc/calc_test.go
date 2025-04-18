@@ -1,11 +1,11 @@
-package main
+package calc
 
 import (
 	"testing"
 )
 
 func TestSumm(t *testing.T) {
-	ans := summ(2, -2)
+	ans := Summ(2, -2)
 	if ans != 0 {
 		t.Errorf("summ(2, -2) = %d; want 0", ans)
 	}
@@ -13,7 +13,7 @@ func TestSumm(t *testing.T) {
 }
 
 func TestMinus(t *testing.T) {
-	ans := minus(2, -2)
+	ans := Minus(2, -2)
 	if ans != 4 {
 		t.Errorf("minus(2, -2) = %d; want 0-4", ans)
 	}
