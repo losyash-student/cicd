@@ -16,7 +16,7 @@ jobs:
         go-version: '1.21'
 
     - name: building
-      uses: go build -v .
+      run: go build -v .
 
     - name: testing
       run: go test ./... -v
