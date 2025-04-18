@@ -3,8 +3,8 @@ name: test
 on: push
 
 jobs:
- Hello:
-  name: first test
+ build:
+  name: building/testing project
   runs-on: ubuntu-latest
   steps:
     - name: copy repo
