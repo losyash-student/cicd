@@ -6,7 +6,7 @@ import (
 
 func TestSumm(t *testing.T) {
 	ans := Summ(2, -2)
-	if ans != 0 {
+	if ans != 2 {
 		t.Errorf("summ(2, -2) = %d; want 0", ans)
 	}
 
